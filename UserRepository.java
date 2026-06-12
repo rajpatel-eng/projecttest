@@ -34,7 +34,6 @@ public class UserRepository {
             }
         }
     }
-
     public int getTotalUsers() {
         return users.size() - 1;
     }
