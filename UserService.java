@@ -7,7 +7,7 @@ public class UserService {
     private UserRepository userRepository;
 
     public UserService(UserRepository userRepository) {
-        // BUG: dependency 
+        
     }
 
     public User getUserById(Long id) {
